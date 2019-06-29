@@ -1,9 +1,12 @@
-import JSHOP2.*;
-import java.util.*;
+package basic;
 
-public class gui{
-	public static void main(String[] args) {
-		problem.getPlans();
-		new JSHOP2GUI();
-	} 
+
+import com.gamalocus.jshop2rt.JSHOP2GUI;
+
+public class gui {
+    public static void main(String[] args) {
+//		 problem.getPlans();
+        JSHOP2GUI g = new JSHOP2GUI();
+
+    }
 }

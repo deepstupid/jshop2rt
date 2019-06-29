@@ -72,7 +72,7 @@
              nil
              nil)
 
-    ;; Find blocks with no assosiated goals and add an appropriate goal
+    ;; Find blocks with no associated goals and add an appropriate goal
     ;; (on-table ?x) for those blocks if they have to be moved, i.e. if
     ;; they are on the way of something else. Otherwise, we can simply
     ;; ignore them
